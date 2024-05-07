@@ -6,6 +6,39 @@ This is the repository for the following paper. If you use this implementation, 
 
 [[paper]](TODO)
 
-### Contact
+
+
+## File List
+
+### Data
+Contains all data files used and produced by the project.
+- **array_pos/**: Stores XML and NPZ files related to array positions.
+  - `DASArray_10LT.xml`, `DASArray_10X.xml`: Configuration files for array settings.
+  - `cha_save.npz`, `cha_save_LT.npz`: Channel save files.
+- **vs/**: Includes NPZ files for various visualization scripts.
+  - `const_maps.npz`: Construction maps used in visualization.
+  - `map_region1.npz`, `map_region2.npz`, `map_region3.npz`: Region-specific map data.
+  - `mask_region1.npz`, `mask_region2.npz`, `mask_region3.npz`: Mask files for each region.
+  - `train_maps.npz`, `truck_maps.npz`: Train and truck map data files.
+
+### Media
+Stores media files related to the project.
+- `video_fast.mp4`: Fast playback version of the map video.
+- `video_nonorm_fast.mp4`: Non-normalized fast playback version of the map video.
+
+### Modules
+Python modules for handling data and utilities.
+- `das_io.py`: Module for input/output operations of DAS data.
+- `utils.py`: Utility functions for general operations.
+
+### Scripts
+Jupyter notebooks and Python scripts for project setup and execution.
+- `script.ipynb`: Script for visualizing seismic source mapping in the three regions.
+- `script_construction.ipynb`: Script for mapping a construction site.
+- `script_train.ipynb`: Script for mapping a train passing event.
+- `script_truck.ipynb`: Script for mapping a truck passing event.
+
+## Contact
 Feel free to send any questions to:
 - [Jingxiao Liu](mailto:jingxiao@mit.edu)
+
