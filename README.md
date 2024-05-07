@@ -1,7 +1,18 @@
 # Urban sensing via seismic source mapping
 
-This is the repository for the following paper. If you use this implementation, please cite our paper:
+## Visualization
 
+The GIFs below showcase the seismic source mapping results from September 20th, using different normalization methods.
+
+- **Map Normalized in Each 10-Minute Window**:
+  ![Map normalized in each 10-minute window](media/map.gif)
+
+- **Map Normalized Over One Day**:
+  ![Map normalized in one day](media/map_norm.gif)
+
+For a more comprehensive view, a six-day video encompassing the extended data set is available. You can download this video from the [media folder](media/).
+
+This is the repository for the following paper. If you use this implementation, please cite our paper:
 >* TODO
 
 [[paper]](TODO)
