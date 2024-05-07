@@ -902,7 +902,6 @@ def create_geodataframe(maps, mask, bounds_gps, crs='EPSG:4326'):
     - gpd.GeoDataFrame: GeoDataFrame representing the matrix data.
     """
     # Process matrix
-#     matrix = np.mean(maps, (0, 1)).reshape(mask.shape)
     matrix = np.ma.masked_where(mask, maps)
     matrix = matrix.T
 
