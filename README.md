@@ -22,7 +22,7 @@ For a more comprehensive view, a six-day video encompassing the extended data se
 ### Data
 Contains all data files used and produced by the project.
 - **array_pos/**: Stores XML and NPZ files related to array positions.
-  - `DASArray_10LT.xml`, `DASArray_10X.xml`: Configuration files for array settings.
+  - `DASArray_10LT.xml`, `DASArray_10V.xml`: Configuration files for array settings.
   - `cha_save.npz`, `cha_save_LT.npz`: Channel save files.
 - **vs/**: Includes NPZ files for various visualization scripts.
   - `const_maps.npz`: Construction maps used in visualization.
