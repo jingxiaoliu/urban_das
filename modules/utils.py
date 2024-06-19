@@ -1025,8 +1025,7 @@ def add_lat_lon_ticks(ax):
     Returns:
         None
     """
-    # Define the projection transformations
-    proj_transform = pyproj.Proj(proj='merc', ellps='WGS84')
+    proj_transform = pyproj.Proj('epsg:3857')
     lonlat_transform = pyproj.Proj(init='epsg:4326')
 
     # Define the function for transforming x & y to lon & lat
