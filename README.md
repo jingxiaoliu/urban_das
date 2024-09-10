@@ -1,9 +1,7 @@
 # Urban sensing via seismic source mapping
 
 This is the repository for the following paper. If you use this implementation, please cite our paper:
->* TODO
-
-[[paper]](TODO)
+>* Liu, J., Li, H., Noh, H.Y., Santi P., Biondi, B. & Ratti, C. (2024). Urban Sensing Using Existing Fiber-Optic Networks. [https://arxiv.org/abs/2408.14320](https://arxiv.org/abs/2409.05820)
 
 ## Visualization
 
