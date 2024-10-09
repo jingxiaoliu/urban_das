@@ -557,7 +557,7 @@ def _beamformer(distGridToMic,waveNumber,csm,mic_idx,steerVec,gi,idx,ac,st,r_dia
     
     helpNormalize = 0.0
     for cntMics in nb.prange(nMics):
-        expArg_att = distGridToMic[gi,cntMics]*np.exp(np.float32(waveNumber * distGridToMic[gi,cntMics]/2/Q))
+        expArg_att = np.sqrt(distGridToMic[gi,cntMics])*np.exp(np.float32(waveNumber * distGridToMic[gi,cntMics]/2/Q))
         helpNormalize += 1.0 / (expArg_att * expArg_att)
         steerVec[cntMics] /= expArg_att
     
