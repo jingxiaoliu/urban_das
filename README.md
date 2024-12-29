@@ -46,6 +46,7 @@ Jupyter notebooks and Python scripts for project setup and execution.
 - `script_construction.ipynb`: Script for mapping a construction site.
 - `script_train.ipynb`: Script for mapping a train passing event.
 - `script_truck.ipynb`: Script for mapping a truck passing event.
+- `script_Q.ipynb`: Script for estimating the attenuation quality factor.
 
 ## Contact
 Feel free to send any questions to:
