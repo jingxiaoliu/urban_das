@@ -17,6 +17,20 @@ The GIFs below showcase the seismic source mapping results from September 20th, 
 
 For a more comprehensive view, a six-day video encompassing the extended data set is available. You can download this video from the [media folder](media/).
 
+## Hardware requirements
+This implementation requires only a standard computer with enough RAM to support the in-memory operations.
+
+## Software requirements
+OS Requirements
+This package is supported for Linux. The package has been tested on the following systems:
+
+-Linux: Ubuntu 16.04
+
+##Python Dependencies
+This implementation mainly depends on the Python scientific stack.
+-
+
+
 ## File List
 
 ### Data
