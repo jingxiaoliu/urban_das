@@ -22,14 +22,15 @@ This implementation requires only a standard computer with enough RAM to support
 
 ## Software requirements
 OS Requirements
-This package is supported for Linux. The package has been tested on the following systems:
+This package is supported for Linux. The package has been tested on the following system:
+- Linux: Ubuntu 18.04
 
--Linux: Ubuntu 16.04
-
-##Python Dependencies
-This implementation mainly depends on the Python scientific stack.
--
-
+## Python Dependencies
+This implementation mainly depends on the Python packages.
+- numpy
+- scipy
+- numba
+- acoular
 
 ## File List
 
