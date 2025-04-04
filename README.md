@@ -1,7 +1,7 @@
 # Urban Sensing Using Existing Fiber-Optic Networks
 
 This is the repository for the following paper. If you use this implementation, please cite our papers:
->* Liu, J., Li, H., Noh, H.Y., Santi P., Biondi, B. & Ratti, C. (2024). Urban Sensing Using Existing Fiber-Optic Networks. [https://arxiv.org/abs/2408.14320](https://arxiv.org/abs/2409.05820)
+>* Liu, J., Li, H., Noh, H.Y., Santi P., Biondi, B. & Ratti, C. (2025). Urban sensing using existing fiber-optic networks. Nature Communications, 16(1), 3091.
 >* Liu, J., Yuan, S., Dong, Y., Biondi, B., & Noh, H. Y. (2023). TelecomTM: A fine-grained and ubiquitous traffic monitoring system using pre-existing telecommunication fiber-optic cables as sensors. Proceedings of the ACM on Interactive, Mobile, Wearable and Ubiquitous Technologies, 7(2), 1-24.
 >* Yuan, S., Liu, J., Noh, H. Y., Clapp, R., & Biondi, B. (2024). Using vehicle‐induced DAS signals for near‐surface characterization with high spatiotemporal resolution. Journal of Geophysical Research: Solid Earth, 129(4), e2023JB028033.
 
